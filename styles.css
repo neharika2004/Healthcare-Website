@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif
+}
+body{
+    background-color:#f0f4f5;
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 5%;
+    height: 30vh;
+}
+nav ul
+{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+nav img{
+    width: 170px;
+    margin-right: 60px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+  
+section{
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    width: 50%;
+}
+.left-section{
+    margin-left: 5%;
+    position: relative;
+}
+.left-section h1{
+    font-size: 70px;
+}
+.left-section p{
+    font-size: 18px;
+    color:#7c7c7c;
+    margin: 20px 0;
+}
+.bottomAngle{
+    margin-left: 620px;
+    width: 25px;
+    
+}
+.stethoscope {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+}
+.mouse {
+    position: absolute;
+    right: -40px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+.left-section button{
+    background-color:#20bc7e;
+    color:white;
+    border: none;
+    padding: 15px 30px;
+    border-radius:40px;
+    font-size:25px;
+    font-weight: 600;
+    margin-right: 100px;
+    
+}
+.greenBox,
+.yellowBox{
+    position: absolute;
+    right: 0;
+    
+}
+.greenBox{
+    width: 29%;
+    bottom: 15px;
+    margin-left: 4px;
+}
+.yellowBox {
+  width: 20%;
+  bottom: 50px;
+}
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+  margin-right: 0px;
+}
+.left-section button:hover{
+    background-color:rgb(246, 184, 70);
+    color: black;
+    cursor: pointer;
+}
